@@ -1,0 +1,1292 @@
+[
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GenerateApi",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.GenerateApiModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "CopyApi",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.CopyApiModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateFile",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actv_Ind",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateVersions",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Cd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actv_Ind",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateDocument",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Cd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Record_Version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actv_Ind",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateDocumentList",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Cd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Record_Version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actv_Ind",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateTransactionHistory",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Correlation_Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "CalculatePremium",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calculatePremium",
+        "Type": "CLAPi.ExcelEngine.Api.Models.CalculatePremiumModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostModifiedFiles",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getModifiedFileModel",
+        "Type": "CLAPi.ExcelEngine.Api.Models.PostModifiedFileModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateMaster",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Record_Version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Cd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Master_Key",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actv_Ind",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetTemplateAccessHistory",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Cd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Record_Version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "TemplateFileDownload",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubFolder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Template_Cd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Download_Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Record_Version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Actv_Ind",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostBusinessType",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.PostBusinessTypeModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetBusinessType",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostBusinessSubType",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.PostBusinessSubTypeModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetBusinessSubType",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Folder_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostUserRegistration",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationDto",
+        "Type": "CLAPi.ExcelEngine.Api.DTOs.UserRegistrationDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostGenerateOtp",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.PostGenerateOtp",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetUserList",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "GetUser",
+    "RelativePath": "escalator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "User_Nm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostValidateOtp",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.ValidateOtpModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostToken",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.PostToken",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  },
+  {
+    "ContainingType": "CLAPi.ExcelEngine.Api.Controllers.ExcelToApiController",
+    "Method": "PostApplicationSource",
+    "RelativePath": "escalator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CLAPi.ExcelEngine.Api.Models.PostApplicationSource",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json; x-api-version=5.0"
+        ],
+        "StatusCode": 415
+      }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Siddhartha_Dash\\BitBucket\\Prism\\excel-engine-api-prism\\CLAPi.ExcelEngine.Api.AppHost\\CLAPi.ExcelEngine.Api.AppHost.csproj": {}
+  },
+  "projects": {
+    "D:\\Siddhartha_Dash\\BitBucket\\Prism\\excel-engine-api-prism\\CLAPi.ExcelEngine.Api.AppHost\\CLAPi.ExcelEngine.Api.AppHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Siddhartha_Dash\\BitBucket\\Prism\\excel-engine-api-prism\\CLAPi.ExcelEngine.Api.AppHost\\CLAPi.ExcelEngine.Api.AppHost.csproj",
+        "projectName": "CLAPi.ExcelEngine.Api.AppHost",
+        "projectPath": "D:\\Siddhartha_Dash\\BitBucket\\Prism\\excel-engine-api-prism\\CLAPi.ExcelEngine.Api.AppHost\\CLAPi.ExcelEngine.Api.AppHost.csproj",
+        "packagesPath": "C:\\Users\\en50094\\.nuget\\packages\\",
+        "outputPath": "D:\\Siddhartha_Dash\\BitBucket\\Prism\\excel-engine-api-prism\\CLAPi.ExcelEngine.Api.AppHost\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\en50094\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Siddhartha_Dash\\BitBucket\\Prism\\Api\\local.nuget\\local.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Hosting.AppHost": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

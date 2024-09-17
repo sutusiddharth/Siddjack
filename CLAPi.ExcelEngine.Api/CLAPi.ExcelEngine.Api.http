@@ -1,0 +1,6 @@
+@CLAPi.ExcelEngine.Api_HostAddress = http://localhost:5261
+
+GET {{CLAPi.ExcelEngine.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "4pR1OdobPJgBQooaZ/azFjvO8WDEb8G/gL6fPpANPNY=",
+  "Source": "CLAPi.ExcelEngine.Api",
+  "BasePath": "_content/CLAPi.ExcelEngine.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CLAPi.ExcelEngine.Api\\wwwroot",
+      "Source": "CLAPi.ExcelEngine.Api",
+      "ContentRoot": "D:\\Siddhartha_Dash\\BitBucket\\Prism\\excel-engine-api-prism\\CLAPi.ExcelEngine.Api\\wwwroot\\",
+      "BasePath": "_content/CLAPi.ExcelEngine.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

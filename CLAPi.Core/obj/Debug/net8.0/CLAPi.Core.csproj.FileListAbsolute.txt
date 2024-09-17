@@ -1,0 +1,15 @@
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\bin\Debug\net8.0\CLAPi.Core.deps.json
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\bin\Debug\net8.0\CLAPi.Core.dll
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\bin\Debug\net8.0\CLAPi.Core.pdb
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\bin\Debug\net8.0\ServiceDefaults.dll
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\bin\Debug\net8.0\ServiceDefaults.pdb
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.csproj.AssemblyReference.cache
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.AssemblyInfoInputs.cache
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.AssemblyInfo.cs
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.csproj.CoreCompileInputs.cache
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.csproj.Up2Date
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.dll
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\refint\CLAPi.Core.dll
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\CLAPi.Core.pdb
+D:\Siddhartha_Dash\BitBucket\Prism\excel-engine-api-prism\CLAPi.Core\obj\Debug\net8.0\ref\CLAPi.Core.dll
